@@ -55,6 +55,17 @@ public class Calcule {
 				+ pgcd() + ", factoriel()=" + factoriel() + "]";
 	}
 
+	public Calcule(int a, int b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+
+	public Calcule() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	
 	
 	
